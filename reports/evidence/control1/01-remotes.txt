@@ -1,13 +1,13 @@
 $ git remote -v
-mirror	https://github.com/blur3773/devops-kr-mirror.git (fetch)
-mirror	https://github.com/blur3773/devops-kr-mirror.git (push)
-origin	https://github.com/blur3773/devops-kr-template.git (fetch)
-origin	https://github.com/blur3773/devops-kr-template.git (push)
-origin	https://github.com/blur3773/devops-kr-mirror.git (push)
-upstream	https://gitverse.ru/dgimatdinov/devops-kr-template.git (fetch)
-upstream	https://gitverse.ru/dgimatdinov/devops-kr-template.git (push)
+mirror  git@gitlab.com:blur3773/devops-kr-mirror.git (fetch)
+mirror  git@gitlab.com:blur3773/devops-kr-mirror.git (push)
+origin  https://github.com/blur3773/devops-kr-template.git (fetch)
+origin  https://github.com/blur3773/devops-kr-template.git (push)
+origin  git@gitlab.com:blur3773/devops-kr-mirror.git (push)
+upstream  https://gitverse.ru/dgimatdinov/devops-kr-template.git (fetch)
+upstream  https://gitverse.ru/dgimatdinov/devops-kr-template.git (push)
 
 $ git fetch --all
-Fetching upstream
 Fetching origin
+Fetching upstream
 Fetching mirror
